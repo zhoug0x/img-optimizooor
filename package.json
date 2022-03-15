@@ -1,0 +1,19 @@
+{
+	"name": "img-optimizooor",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js",
+		"clean": "rm -rf thumbnails output"
+	},
+	"author": "zhoug.eth",
+	"license": "MIT",
+	"dependencies": {
+		"imagemin": "^8.0.1",
+		"imagemin-jpegtran": "^7.0.0",
+		"imagemin-pngquant": "^9.0.2",
+		"jimp": "^0.16.1"
+	}
+}
