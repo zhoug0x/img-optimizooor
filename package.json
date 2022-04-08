@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"start": "node index.js",
-		"clean": "rm -rf thumbnails output"
+		"clean": "rm -rf input/* output"
 	},
 	"author": "zhoug.eth",
 	"license": "MIT",
